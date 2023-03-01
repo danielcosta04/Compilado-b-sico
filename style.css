@@ -1,0 +1,77 @@
+body{
+    background: blue;
+    font: normal 15pt arial;
+    
+}
+
+.tudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    color: black;
+    text-align: center;
+    width: 250px;
+}
+.cont{
+    border-radius: 15px;
+    width: 400px;
+    height: 600px;
+}
+.all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vi{
+    border-radius: 15px;
+    width: 400px;
+    height: 600px;
+    float: left;
+}
+.hd{
+    border-radius: 15px;
+    width: 400px;
+    height: 600px;
+    font: 15pt;
+    float: center;
+}
+#txtn{
+    width: 50px;
+}
+#txtvel{
+    width: 60px;
+}
+.tab{
+    border-radius: 15px;
+    width: 400px;
+    height: 600px;
+}
+.sm{
+    border-radius: 15px;
+    width: 400px;
+    height: 600px;
+    
+}
+section{
+    background: white;
+    border-radius: 15px;
+    padding: 15px;
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    box-shadow: 4px 4px 10px rgb(rgb(19, 6, 6), green, blue);
+}
+#seltab{
+    width: 300px;
+    padding: 5px;
+}
+footer{
+    color: white;
+    text-align: center;
+    font-style:oblique;
+}
+div{
+    text-align: center;
+}

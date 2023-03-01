@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tabuada</title>
+</head>
+<body onload="carregar()">
+    <fieldset class="tudo">
+        
+        <fieldset class="cont">
+            <header>Contar</header>
+            <section>
+                <div id="dados">
+                    <p>Início:  <input type="number" name="inicio" id="txti"></p>
+                    <p>Fim:     <input type="number" name="fim" id="txtf"></p>
+                    <p>passo:   <input type="number" name="passo" id="txtp"></p>
+                    <p><input type="button" value="Contar" onclick="contar()"></p>
+                </div>
+                <div id="ress">
+                    <p>Resultado:</p>
+                </div>
+            </section>
+        </fieldset>
+
+        <fieldset class="tab">
+            <header>Tabuada</header>
+            <section>
+                <div>
+                    <p>Número: <input type="number" name="num" id="txtn">
+                    <input type="button" value="Gerar tabuada" onclick="tabuada()"></p>
+                </div>
+                <div>
+                    <select name="tabuada" id="seltab" size="10"></select>
+                </div>
+            </section>
+        </fieldset>
+
+        <fieldset class="sm">
+            <header>Sistema de Multas</header>
+            <section>
+                Velocidade do carro:<br><input type="number" name="txtvel" id="txtvel"> km/h
+                <input type="button" color="yellow" value="Verificar" onclick="calcular()">
+                <div id="resu"></div>
+            </section>
+        </fieldset>
+    </fieldset>
+    <fieldset class="all">
+        <fieldset class="vi">
+            <header>Verificador de Idade</header>
+            <section>
+                <div>
+                    <p>Ano de Nascimento:
+                    <input type="number" name="txtano" id="txtano" min="0"></p>
+                    <p>Sexo: <input type="radio" name="radsex" id="mas" checked><label for="nasc">Masculino</label>
+                    <input type="radio" name="radsex" id="fem"><label for="fem">Feminino</label></p>
+                    <p><input type="button" value="Verificar" onclick="verificar()"></p>
+                </div>
+                <div id="res"></div>
+            </section>
+        </fieldset>
+        <fieldset class="hd">
+            <header>Hora do dia</header>
+            <section>
+                <div id="msg">
+                    mensagem...
+                </div>
+                <div id="foto">
+                    <img id="imagem" src="manha.jpg" alt="fotododia">
+                </div>
+            </section>
+        </fieldset>
+    
+    </fieldset>
+    <footer>
+        <p>&copy; Reservados Java Script compilado</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
